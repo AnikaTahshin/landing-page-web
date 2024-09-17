@@ -26,9 +26,10 @@
   cursor: pointer;
 }
 .logo-text {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-weight: 800;
   color: #fff;
+  font-size: 45px;
 }
 .logo-box {
   display: flex;
@@ -41,6 +42,37 @@
 
 /* MAIN CONTAINER */
 
+/* .img-main-div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+} */
+
+.home-img-div {
+  width: 200px;
+  text-align: center;
+}
+
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+}
+
+.home-img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 5px;
+
+}
+
+.product-name-price-div {
+  margin-top: 10px;
+}
+
+
 .home {
   background-color: #ea2127;
   display: flex;
@@ -50,43 +82,21 @@
   padding: 100px;
 }
 
-.home-img-div {
-  border: #fff;
-  border-radius: 12px;
-}
 
-.product-name-price-div {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-}
-.img-main-div {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  /* padding: 20px; */
-}
-.home-img {
-  /* height: 457px; */
-  /* width: 300px; */
-  max-width: 300px;
-  max-height: 200px;
-  object-fit: cover;
-  padding: 10px;
-}
+
+
 .img-text {
   color: #fff;
 }
 
 .home-large-text {
   color: #fff;
-  font-weight: 900;
+  font-weight: 400;
   font-size: 60px;
   position: absolute;
-  top: 220px;
+  top: 115px;
+  font-family: act of rejection;
+  opacity: 0.5;
   /* z-index: -1; */
 }
 
@@ -111,11 +121,47 @@
   margin: 10px;
 }
 .title-1 {
-  color: black;
-  font-size: 70px;
+  /* color: black; */
+  /* font-size: 70px;
   padding: 20px;
+  text-align: start; */
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  color: #000;
+  font-size: 45px;
   text-align: start;
+  padding: 20px;
+
   /* margin-right: 305px; */
+}
+.title-2{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+  text-align: start;
+  padding: 20px;
+
+  /* margin-right: 305px; */
+}
+
+.title-3{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  text-align: start;
+  /* padding: 20px; */
+color: #ea2127  ;
+
+  /* margin-right: 305px; */
+}
+
+.water-text{
+  color: #fff;
+  text-shadow: -1px 1px 0 #000,
+  1px 1px 0 #000,
+  1px -1px 0 #000,
+  -1px -1px 0 #000;
 }
 .text-black {
   color: black;
@@ -182,7 +228,12 @@
 
 .white-para-text {
   color: #fff;
-  font-size: 48px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  text-align: start;
+  padding: 20px;
+
 }
 .person-img {
   height: 300px;
@@ -192,10 +243,36 @@
   top: -65px;
   right: 0;
 }
+
+
+/* section 7 starts */
+.purple-gold-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.purple-gold-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 @media (max-width: 600px) {
   .header-main {
     width: 100%;
-    padding: 0px;
+    padding-top: 10px;
+  }
+
+  .logo-text {
+    font-weight: 800;
+    font-size: 25px;
+  }
+  .logo {
+    height: 30px;
+    width: 30px;
   }
   .home {
     padding: 100px;
@@ -205,6 +282,7 @@
   }
   .img-main-div {
     flex-direction: column;
+   margin-right: 40px;
   }
 
   .home-large-text {
@@ -222,7 +300,7 @@
 
   .title-1 {
     /* color: black; */
-    font-size: 30px;
+    font-size: 20px;
     /* width: 50%; */
     /* padding: 20px; */
     /* text-align: left; */
@@ -230,6 +308,40 @@
 
     margin-right: 35px;
   }
+
+  .title-2{
+   
+    font-size: 20px;
+    text-align: center;
+    /* padding: 20px; */
+  
+    /* margin-right: 305px; */
+  }
+
+  .title-3{
+   
+    font-size: 30px;
+    text-align: center;
+    /* padding: 20px; */
+  
+    /* margin-right: 305px; */
+  }
+
+
+  
+.white-para-text {
+
+  font-size: 25px;
+  text-align: center;
+ margin-top: 180px;
+ padding: 0;
+ /* width: 250px; */
+  /* padding: 20px; */
+
+}
+
+
+
   .flex-row-1 {
     width: 100%;
     flex-direction: column;
@@ -249,10 +361,6 @@
     padding: 0px;
   }
 
-  /* .shop-btn{
-        
-        margin-left: 95px;
-    } */
   .product-img {
     width: 100%;
   }
@@ -274,14 +382,20 @@
 
 @media (min-width: 768px) {
   .header-main {
-    /* flex-direction: column; */
     width: 100%;
-    padding: 0px;
+    padding: 20px;
   }
 
   .img-main-div {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-wrap: wrap;
+  gap: 10px;
+  }
+
+  .img-wrapper{
+    max-width: 100%;
+    
   }
   .flex-row {
     display: grid;
@@ -295,44 +409,31 @@
 
   .title-1 {
     font-size: 40px;
-    /* margin-left: 75px; */
+  }
+
+  .white-para-text {
+
+    font-size: 25px;
+    text-align: left;
+   margin-right: 180px;
+   padding: 0;
+   
+    
+  
   }
 
   .two-book {
     display: flex;
     flex-direction: row;
   }
-  /* .shop-btn{
-        
-        margin-left: 25px;
-    } */
-
-  /* .shop-div-1{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    } */
-  /* .container{
-        width: 100%;
-    } */
-
-  /* .black-bg{
-        width: 100%;
-        padding:  0px ;
-    } */
-
-  /* .product-img{
-        width: 250px;
-        border-radius: 12px;
-       
-    } */
+  
 }
 
 @media (min-width: 992px) {
   .header-main {
     /* flex-direction: column; */
     width: 100%;
+    padding: 20px;
   }
 
   .product-img {
@@ -351,8 +452,9 @@
   .img-main-div {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    /* gap: 10px; */
     position: relative;
   }
 
@@ -388,6 +490,7 @@
   .header-main {
     /* flex-direction: column; */
     width: 100%;
+    padding: 20px;
   }
 
   .black-bg {
@@ -397,7 +500,7 @@
   .img-main-div {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     position: relative;
   }
