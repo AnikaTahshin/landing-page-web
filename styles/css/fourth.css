@@ -1,0 +1,27 @@
+.section-4-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 80px;
+    background: linear-gradient(90deg, #ec3339 0%, #bb1117 100%);
+    position: relative;
+  }
+  
+  .white-para-text {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: start;
+    padding: 20px;
+  
+  }
+  .person-img {
+    height: 300px;
+    max-width: 300px;
+    object-fit: contain;
+    position: absolute;
+    top: -65px;
+    right: 0;
+  }

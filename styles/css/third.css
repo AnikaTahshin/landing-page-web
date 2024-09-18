@@ -1,0 +1,30 @@
+.black-bg {
+    background-color: black;
+    /* padding: 180px 180px 0px 180px; */
+  }
+  
+  .signature-img {
+    height: 400px;
+    max-width: 400px;
+    object-fit: contain;
+    margin-top: -200px;
+  }
+  
+  .shop-btn {
+    border: none;
+    padding: 10px;
+    margin-left: 25px;
+  }
+  .book-img {
+    height: 250px;
+    max-width: 250px;
+    object-fit: contain;
+  }
+  
+  .flex-row-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+  }

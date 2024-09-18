@@ -1,0 +1,110 @@
+/* .flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+   */
+  .gray-bg {
+    padding: 40px;
+    background-color: #f6f5f5;
+  }
+  
+  .product-img-div {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 12px;
+    margin: 10px;
+  }
+  .title-1 {
+    /* color: black; */
+    /* font-size: 70px;
+    padding: 20px;
+    text-align: start; */
+  
+    /* font-family: "Montserrat", sans-serif; */
+    font-weight: 800;
+    /* color: #000; */
+    font-size: 45px;
+    text-align: start;
+    padding: 20px;
+  
+    /* margin-right: 305px; */
+  }
+
+  .water-text-2{
+    color: #fff;
+    text-shadow: -1px 1px 0 #000,
+    1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000;
+  }
+  .title-2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    text-align: start;
+    padding: 20px;
+  
+    /* margin-right: 305px; */
+  }
+  
+  .title-3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: start;
+    /* padding: 20px; */
+  color: #ea2127  ;
+  
+    /* margin-right: 305px; */
+  }
+  
+  .title-4{
+    font-family: "Act of Rejection", sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    text-align: start;
+    /* padding: 20px; */
+  color: #000  ;
+  
+    /* margin-right: 305px; */
+  }
+  
+  .title-product{
+    
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    color: #000;
+    font-size: 45px;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+  
+    /* margin-right: 305px; */
+  }
+  
+  .water-text{
+    color: #fff;
+    text-shadow: -1px 1px 0 #000,
+    1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000;
+  }
+  .text-black {
+    color: black;
+  }
+  
+  .text-white {
+    color: #fff;
+  }
+  
+  .text-red {
+    color: red;
+  }
+  .product-img {
+    height: 250px;
+    max-width: 250px;
+    object-fit: contain;
+    border-radius: 12px;
+  }

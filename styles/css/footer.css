@@ -1,0 +1,40 @@
+.footer-container{
+    background: #000;
+    padding: 40px;
+  }
+  .footer-logo-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+  }
+  .footer-list-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .footer-btn-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .payment-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .footer-list-div-1{
+    width: 30%;
+  }
+  .footer-btn{
+    width: 100%;
+    /* padding: 6px; */
+    margin: 5px;
+    cursor: pointer;
+  }

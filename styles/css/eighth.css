@@ -1,0 +1,48 @@
+.relative-position{
+    position: relative;
+  }
+  .title-5{
+    font-weight: 400;
+    font-size: 60px;
+    position: absolute;
+    top: 50px;
+    left: 400px;
+    font-family: "Act of Rejection", sans-serif;
+    text-align: center;
+    z-index: 1;
+    /* opacity: 0.5; */
+  }
+  .span-text{
+    font-size: 20px;
+  }
+  .section-8-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .cover-img{
+    /* height: 350px;
+    width: 350px; */
+    object-fit: contain;
+    max-width: 40%;
+  }
+  
+  .paragraph-div{
+    padding: 30px;
+    /* width: 50%; */
+  }
+  .single-paragraph-div{
+    padding: 20px;
+    
+  }
+  .play-img{
+    position: absolute;
+    bottom: 0;
+    /* top: 20px; */
+    right: -20px;
+    max-width: 200px;
+    max-height: 250px;
+    object-fit: contain;
+    padding: 20px;
+    /* width: 20%; */
+  }
