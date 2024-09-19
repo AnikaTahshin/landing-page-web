@@ -47,3 +47,31 @@ var wordflick = function () {
 document.addEventListener("DOMContentLoaded", function () {
   wordflick();
 });
+
+
+
+// LOGO TEXT ANIMATE
+
+window.onload = play;
+document.getElementById('logo-text').addEventListener('click', play);
+
+function play() {
+    const logoTitle = 'VTMERCH';
+    let logoRandom = '';
+    const logoTextElement = document.getElementById('logo-text');
+    const possible = "-+*/|}{[]~\\\":;?/.><=+-_)(*&^%$#@!)}";
+
+    function generateRandomTitle(i, logoRandom) {
+        setTimeout(function() {
+            logoTextElement.textContent = logoRandom;
+        }, i * 400); // Adjust the speed of animation here
+    }
+
+    for (let i = 0; i <= logoTitle.length; i++) {
+        logoRandom = logoTitle.substr(0, i);
+        for (let j = i; j < logoTitle.length; j++) {
+            logoRandom += possible.charAt(Math.floor(Math.random() * possible.length));
+        }
+        generateRandomTitle(i, logoRandom);
+    }
+}

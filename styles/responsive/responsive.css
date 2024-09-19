@@ -9,20 +9,21 @@
     font-size: 25px;
   }
   .logo {
-    height: auto;
-    max-width: 100%;
+    /* height: auto; */
+    max-width: 60px;
   }
 
   .img-main-div {
     flex-direction: column;
     margin: 0 auto;
-
+    padding-top: 25px;
   }
 
   .home-large-text {
-    font-size: 30px;
+    font-size: 25px;
     position: absolute;
     top: 60px;
+    margin: 0 auto;
     /* text-align: center; */
   }
 
@@ -131,6 +132,11 @@
     flex-direction: column;
   }
 
+  .cover-img{
+    padding: 20px;
+    max-width: 100%;
+  }
+
   .purple-gold-container {
     /* display: flex; */
     flex-direction: column;
@@ -172,6 +178,18 @@
     flex-direction: column;
   }
 
+
+  .title-5{
+    font-weight: 400;
+    font-size: 30px;
+    padding-top: 25px;
+    /* position: absolute; */
+    /* top: 50px; */
+    /* left: 400px; */
+    /* font-family: "Act of Rejection", sans-serif; */
+    /* text-align: center; */
+    /* z-index: 1; */
+  }
   .cart-container {
     flex-direction: column;
   }
@@ -198,6 +216,55 @@
   .cart-desc-div {
     margin: 0 auto;
   }
+
+  .product-img-div {
+    /* background-color: #fff; */
+    /* padding: 10px; */
+    /* border-radius: 12px; */
+    /* margin: 5px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-list-div-1{
+    max-width: 100%;
+    padding: 10px;
+  }
+  .footer-header-1{
+    text-align: center;
+  }
+  .footer-content-div{
+    padding: 10px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+  }
+
+  .footer-list-div{
+    flex-direction: column;
+  }
+  .footer-logo-div{
+    /* display: flex; */
+    /* flex-direction: row; */
+    justify-content: center;
+    /* align-items: center; */
+  }
+
+  .service-div-container{
+    /* display: flex; */
+    flex-direction: column;
+    padding: 20px;
+
+    /* justify-content: space-between; */
+    /* align-items: center; */
+  }
+
+  .copyright-text{
+    font-size: 8px;
+    margin-right: 5px;
+  }
 }
 /* @media only screen and (min-width: 500px){
     .product-img-div {
@@ -210,6 +277,11 @@
   } */
 
 @media (min-width: 768px) {
+  .product-img-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .header-main {
     width: 100%;
     /* padding: 20px; */
@@ -256,7 +328,7 @@
     max-width: 200px;
     text-align: center;
     object-fit: cover;
-    
+
     /* display: grid; */
     /* grid-template-columns: 1fr 1fr 1fr; */
     /* margin: 20px; */
@@ -278,7 +350,7 @@
     text-align: center;
   }
 
-  .home-text-div{
+  .home-text-div {
     margin: 0 auto;
   }
 
@@ -286,8 +358,63 @@
     /* height: 50px; */
     width: 40px;
   }
-  .logo-text{
+  .logo-text {
     font-size: 35px;
+  }
+
+  .relative-position {
+    position: relative;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+  }
+  .cover-img{
+    /* padding: 20px; */
+    max-width: 100%;
+  }
+  .cover-img-div {
+    padding-left: 30px;
+  }
+
+  .span-text{
+    font-size: 16px;
+  }
+  .cover-text-desc{
+    font-size: 12px;
+  }
+
+  .title-5{
+    /* font-weight: 400; */
+    /* font-size: 60px; */
+    position: absolute;
+    top: 12px;
+    left: 50px;
+    padding: 0;
+    font-size: 50px;
+    /* font-family: "Act of Rejection", sans-serif; */
+    /* text-align: center; */
+    /* z-index: 1; */
+    /* opacity: 0.5; */
+  }
+  .play-img{
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* top: 20px; */
+    right: -6px;
+    /* max-width: 200px; */
+    max-height: 160px;
+    /* object-fit: contain; */
+    /* padding: 20px; */
+    /* width: 20%; */
+  }
+
+  .footer-content-div{
+    padding: 20px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
   }
 }
 
@@ -296,6 +423,9 @@
     /* flex-direction: column; */
     width: 100%;
     /* padding: 20px; */
+  }
+  .home-text-div{
+    display: flex;justify-content: center;
   }
 
   .product-img {
@@ -341,7 +471,16 @@
     display: flex;
     flex-direction: row;
   }
+  .title-5-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
 
+  .home-large-text{
+    font-size: 60px;
+  }
   /* .shop-btn{
           
           margin-left: 95px;

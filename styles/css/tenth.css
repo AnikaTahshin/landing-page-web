@@ -1,11 +1,16 @@
 .bg-red{
     background: linear-gradient(90deg, #EC3339 0%, #BB1117 100%);
+    
+  }
+  .service-div{
+    margin: 30px;
+  }
+
+  .service-div-container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 25px;
-  }
-  .service-div{
-    margin: 30px;
+
   }

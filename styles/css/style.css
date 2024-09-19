@@ -95,6 +95,9 @@ html, body {overflow-x: hidden !important;width: 100vw !important;}
   background-color: #ea2127;
 
 }
+del{
+  padding-left: 5px;
+}
 
 /* section-10 starts */
 
@@ -105,5 +108,5 @@ html, body {overflow-x: hidden !important;width: 100vw !important;}
 
 .header-main, .section-4-container, .purple-gold-container, .footer-container {
   max-width: 100%;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }

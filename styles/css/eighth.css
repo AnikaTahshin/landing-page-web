@@ -4,13 +4,12 @@
   .title-5{
     font-weight: 400;
     font-size: 60px;
-    position: absolute;
+    /* position: absolute; */
     top: 50px;
-    left: 400px;
-    font-family: "Act of Rejection", sans-serif;
+    /* left: 400px; */
+    /* font-family: "Act of Rejection", sans-serif; */
     text-align: center;
-    z-index: 1;
-    /* opacity: 0.5; */
+    /* z-index: 1; */
   }
   .span-text{
     font-size: 20px;
@@ -20,11 +19,20 @@
     justify-content: space-between;
     align-items: center;
   }
+  .cover-img-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+
+    /* width: 70%; */
+    /* height: 40%; */
+  }
   .cover-img{
     /* height: 350px;
     width: 350px; */
     object-fit: contain;
-    max-width: 40%;
+    max-width: 100%;
   }
   
   .paragraph-div{
