@@ -31,7 +31,7 @@
     padding: 0px;
   }
   .cart-desc-div{
-    /* width: 50%; */
+    width: 50%;
     /* width: 350px; */
     padding: 25px;
   } 
@@ -81,3 +81,54 @@
   .cart-price{
     color: #EA2127;
   }
+
+  .square-box {
+    border: 2px outset black;
+    text-align: center;
+    padding: 10px; /* Increase padding slightly for better spacing */
+    width: 60px;
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+    /* margin: 5px; Add margin for spacing between the squares */
+    font-size: 16px; /* Optional: adjust font size as needed */
+}
+
+.square-main {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Vertically center the text in the boxes */
+    /* gap: 10px; Adds uniform spacing between the items */
+    flex-direction: row;
+}
+.product-size-div{
+  display: flex;
+    justify-content: start;
+    align-items: center; /* Vertically center the text in the boxes */
+    /* gap: 10px; Adds uniform spacing between the items */
+    flex-direction: row;
+}
+
+.size-text{
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 20px;
+}
+
+.product-button-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+}
+.add-to-cart-div>button{
+  outline: 1px solid #000;
+  padding: 10px;
+  width: 100%;
+}
+.buy-now-div>button{
+  outline: 1px solid #000;
+  padding: 10px;
+  width: 100%;
+}
+.add-to-cart-div ,.buy-now-div{
+width: 100%;}

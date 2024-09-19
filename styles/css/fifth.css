@@ -34,3 +34,24 @@
     grid-column: 4 / span 1; /* Fourth step */
     grid-row: span 2;
 }
+.grid-img-div{
+    background: linear-gradient(0deg, #1C1C1C, #1C1C1C),
+linear-gradient(0.83deg, rgba(0, 0, 0, 0.4) -1.08%, rgba(0, 0, 0, 0) 81.57%);
+position: relative;
+
+}
+
+
+
+.grid-img-div:hover{
+    transition: 0.4s;
+    transform: scale(1.1);
+    opacity: 0.4;
+
+}
+.grid-text:hover{
+    font-size: 25px;
+    position: absolute;
+    bottom: 10px;
+    opacity: 1;
+}
