@@ -75,3 +75,6 @@ function play() {
         generateRandomTitle(i, logoRandom);
     }
 }
+
+// animation-3
+

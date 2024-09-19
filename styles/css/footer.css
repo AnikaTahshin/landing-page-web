@@ -30,7 +30,7 @@
     margin-top: 30px;
   }
   .footer-list-div-1{
-    width: 250px
+    width: 350px
   }
   .footer-btn{
     width: 100%;
@@ -43,6 +43,13 @@
     list-style-type: none;
     cursor: pointer;
 
+  }
+li{
+  padding: 5px;
+}
+  .icons-img{
+    height: 15px;
+    width: 15px;
   }
 
   

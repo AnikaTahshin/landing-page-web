@@ -1,0 +1,36 @@
+.grid-container-main {
+    display: grid;
+    grid-gap: 5%;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns for the stair-like structure */
+    justify-items: center;
+}
+
+/* Styling the images */
+.grid-img {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+/* First image starts at the top and spans two rows */
+.grid-item-1 {
+    grid-column: span 1; /* Spanning 1 column to create the first step */
+    grid-row: span 2; /* Spanning 2 rows for a larger stair effect */
+}
+
+/* The next images cascade in, taking up 1 column but stacked */
+.grid-item-2 {
+    grid-column: 2 / span 1; /* Second step */
+    grid-row: span 1;
+}
+
+/* Third image cascades to the right */
+.grid-item-4 {
+    grid-column: 3 / span 1; /* Third step */
+    grid-row: span 1;
+}
+
+/* Fourth item at the bottom, last stair */
+.grid-item-5 {
+    grid-column: 4 / span 1; /* Fourth step */
+    grid-row: span 2;
+}

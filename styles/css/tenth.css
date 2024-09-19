@@ -5,7 +5,10 @@
   .service-div{
     margin: 30px;
   }
-
+.service-logo{
+  height: 30px;
+  height: 30px;
+}
   .service-div-container{
     display: flex;
     flex-direction: row;
