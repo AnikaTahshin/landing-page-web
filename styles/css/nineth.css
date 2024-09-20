@@ -165,6 +165,7 @@
 .view-details-text{
   text-decoration: underline;
   padding: 10px;
+  cursor: pointer;
 }
 /* .add-to-cart-div ,.buy-now-div{
 width: 100%;} */
