@@ -34,9 +34,16 @@
   }
   .footer-btn{
     width: 100%;
-    /* padding: 6px; */
+    padding: 6px;
     margin: 5px;
     cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    
+  }
+  .email-btn{
+    border: 1px solid #a19e9e;
+
   }
 
   .ul-container{

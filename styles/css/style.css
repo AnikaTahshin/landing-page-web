@@ -91,6 +91,12 @@ html, body {overflow-x: hidden !important;width: 100vw !important;}
   background-color: #ea2127;
 
 }
+
+
+.bg-black{
+  background-color: #060606;
+
+}
 del{
   padding-left: 5px;
 }

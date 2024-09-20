@@ -43,7 +43,12 @@
   .home-img-div:hover,.product-img-div:hover,.purple-gold-right-img:hover{
   transform: scaleY(1.2);
   cursor: pointer;
+  /* box-shadow: 10px 10px 20px rgba(36, 36, 36, 0.5);  */
+  transition: box-shadow 0.3s ease; 
+
   }
+
+  
   
   .product-name-price-div {
     margin-top: 10px;
