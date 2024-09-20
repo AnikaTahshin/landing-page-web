@@ -90,6 +90,7 @@
     box-sizing: border-box; /* Ensure padding and border are included in width */
     /* margin: 5px; Add margin for spacing between the squares */
     font-size: 16px; /* Optional: adjust font size as needed */
+    cursor: pointer;
 }
 
 .square-main {
@@ -113,12 +114,21 @@
   margin-right: 20px;
 }
 
-.product-button-div{
+/* .product-button-div{
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  max-width: 80%;
+  width: 250px;
+  padding-top: 25px;
+} */
+
+.product-button-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
   padding-top: 25px;
 }
 .add-to-cart-div{
@@ -131,11 +141,30 @@
 .buy-now-div{
   outline: 1px solid #000;
   padding: 6px;
-  width: 40%;
+  /* width: 40%; */
   border-radius: 8px;
   border: none;
-  margin-left: 35px;
+  /* margin-left: 35px; */
 
+}
+
+.product-share-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+
+}
+
+.social-icon{
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+  padding: 5px;cursor: pointer;
+}
+.view-details-text{
+  text-decoration: underline;
+  padding: 10px;
 }
 /* .add-to-cart-div ,.buy-now-div{
 width: 100%;} */

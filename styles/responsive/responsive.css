@@ -175,23 +175,33 @@
   flex-direction: column;
   justify-content: center;
   padding: 10px;
+  width: 250px;
   /* align-items: center; */
  
 }
 .add-to-cart-div{
   
-  width: 200px;
+  width: 100%;
 
 }
 .buy-now-div{
-
-  width: 200px;
-  margin-left: 0;
+width: 100%;
+  /* margin-left: 0; */
   margin-top: 10px;
 
 }
 .cart-desc-div{
   padding: 0;
+}
+
+.cart-desc-div{
+  /* display: flex; */
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+.title-5{
+  padding: 20px;
 }
 }
 
@@ -386,6 +396,7 @@
     font-weight: 400;
     font-size: 30px;
     padding-top: 25px;
+    /* padding: 16px; */
     /* position: absolute; */
     /* top: 50px; */
     /* left: 400px; */
@@ -494,21 +505,21 @@
   /* display: flex; */
   flex-direction: column;
   /* justify-content: space-between; */
-  width: 80%;
+  width: 250px;
   /* padding: 10px; */
   /* align-items: center; */
  
 }
 .add-to-cart-div{
-  width: 200px;
-  /* width: 100%; */
+  /* width: 200px; */
+  width: 100%;
 
 }
 .buy-now-div{
 
-  width: 200px;
+  width: 100%;
   margin-top: 10px;
-  margin-left: 0;
+  /* margin-left: 0; */
   /* margin-top: 10px; */
 
 }
@@ -588,6 +599,7 @@
   .two-book {
     display: flex;
     flex-direction: row;
+    padding: 30px;
   }
 
   .home-img-div {
@@ -714,6 +726,40 @@
   padding: 10px;
   height: fit-content;
 }
+.product-button-div{
+  width: 250px;
+}
+.buy-now-div{
+
+  width: 100%;
+  /* margin-top: 10px; */
+  margin-left: 10px;
+  /* margin-top: 10px; */
+
+}
+.add-to-cart-div{
+  
+  width: 100%;
+
+}
+/* .shop-div-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+
+
+.person-img {
+  right: 20px;
+}
+
+.signature-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 }
 
 @media (min-width: 992px) {
@@ -762,11 +808,15 @@
     padding-bottom: 100px;
   }
 
-  .shop-div-1{
+  .shop-div-1 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .shop-btn{
+    margin-left: 25px;
   }
   
   .book-img {
@@ -825,6 +875,9 @@
 
       .person-img{
         right: 30px;
+      }
+      .product-button-div{
+        width: 350px;
       }
 }
 

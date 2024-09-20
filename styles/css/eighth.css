@@ -55,3 +55,10 @@
     padding: 20px;
     /* width: 20%; */
   }
+
+  .cart-desc-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
